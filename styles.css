@@ -1,0 +1,36 @@
+
+.logo {
+    display: none;
+}
+
+.logo-img {
+    width: 10rem;
+}
+
+
+/*Queries*/
+
+@media(min-width >= 576px) {
+
+}
+
+@media(min-width: 768px){
+    .logo {
+        display: flex !important;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media(min-width: 992px ) {
+    
+}
+
+@media(min-width: 1200px) {
+
+}
+
+@media(min-width: 1400px){
+
+}

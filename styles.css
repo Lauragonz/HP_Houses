@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --font-title: 'Architects Daughter', cursive;
+    --font-text:'Ubuntu', sans-serif;
+}
+
+body {
+    font-family: var(--font-text);
+}
+
+.title h1{
+    font-family: var(--font-title);
+    font-weight: bolder;
+    font-size: 2.8rem;
+}
 
 .logo {
     display: none;
@@ -14,10 +31,15 @@ form input {
 
 form label {
     margin-bottom: 0;
+    font-style: italic;
 }
 
 .result span {
     height: 100%;
+}
+
+.btn:hover {
+    background: #221e1e;
 }
 
 .footer-logo {
@@ -45,10 +67,6 @@ footer {
 }
 /*Queries*/
 
-@media(min-width >= 576px) {
-
-}
-
 @media(min-width: 768px){
     .logo {
         display: flex !important;
@@ -56,16 +74,4 @@ footer {
         align-items: center;
         margin-bottom: 1.5rem;
     }
-}
-
-@media(min-width: 992px ) {
-    
-}
-
-@media(min-width: 1200px) {
-
-}
-
-@media(min-width: 1400px){
-
 }

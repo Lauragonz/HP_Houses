@@ -3,11 +3,46 @@
     display: none;
 }
 
+.form-check {
+    display: flex;
+    align-items:center;
+}
+
+form input {
+    margin-right: 0.5rem;
+}
+
+form label {
+    margin-bottom: 0;
+}
+
+.result span {
+    height: 100%;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo-img {
     width: 10rem;
 }
 
+footer {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-img {
+    width: 3rem;
+    margin-right: 0.5rem;
+}
 /*Queries*/
 
 @media(min-width >= 576px) {

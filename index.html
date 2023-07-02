@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/536184805e.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./img/G.ico" type="image/x-icon">
     <title>HouseQuest</title>
 </head>
@@ -24,10 +25,140 @@
     </div>
 
     <!--result section-->
-    <div class="result py-4 d-none bg-secondary text-light text-center">
-        <div class="container lead">
-            <span class="display-4 p-3">house</span>!
-        </div>
+    <div class="result py-4 d-none bg-dark text-light text-center">
+        <span class="d-block p-3 mb-0"></span>
     </div>
+
+    <!--quizz section-->
+    <div class="container quizz py-4 bg-secondary-subtle text-dark">
+        <div class="container text-center">
+            <div class="enun">
+                <h2>On with the questions...</h2>
+            </div>
+        </div>
+        <form class="quizz-form text-dark container">
+        <div class="my-5">
+            <p class="lead text-wrap font-weight-normal">
+                1. Which trait do you value the most?
+            </p>
+            <div class="form-check my-2">
+                <input type="radio" name="q1" value="A" checked>
+                <label class="form-check-label">Loyalty</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q1" value="B">
+                <label class="form-check-label">Bravery</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q1" value="C">
+                <label class="form-check-label">Intelligence</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q1" value="D">
+                <label class="form-check-label">Ambition</label>
+            </div>
+        </div>
+        <div class="my-5">
+            <p class="lead text-wrap font-weight-normal">
+                2. What type of activities do you enjoy the most?
+            </p>
+            <div class="form-check my-2">
+                <input type="radio" name="q2" value="A" checked>
+                <label class="form-check-label text-wrap">Helping others and being part of a team</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q2" value="B">
+                <label class="form-check-label text-wrap">Engaging in daring adventures</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q2" value="C">
+                <label class="form-check-label text-wrap">Solving puzzles and riddles</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q2" value="D">
+                <label class="form-check-label text-wrap">Strategizing and planning for personal gain</label>
+            </div>
+        </div>
+        <div class="my-5">
+            <p class="lead font-weight-normal text-wrap">
+                3. What kind of people do you admire?
+            </p>
+            <div class="form-check my-2">
+                <input type="radio" name="q3" value="A" checked>
+                <label class="form-check-label text-wrap">Those who are kind-hearted and empathetic</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q3" value="B">
+                <label class="form-check-label text-wrap">Those who are fearless and courageous</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q3" value="C">
+                <label class="form-check-label text-wrap">Those who are wise and knowledgeable</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q3" value="D">
+                <label class="form-check-label text-wrap">Those who are ambitious and resourcefuln</label>
+            </div>
+        </div>
+        <div class="my-5">
+            <p class="lead text-wrap font-weight-normal">
+                4. How do you handle challenges?
+            </p>
+            <div class="form-check my-2">
+                <input type="radio" name="q4" value="A" checked>
+                <label class="form-check-label form-check text-wrap ps-0">By seeking support from friends and loved ones</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q4" value="B">
+                <label class="form-check-label text-wrap">By confronting them head-on with bravery</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q4" value="C">
+                <label class="form-check-label text-wrap">By analyzing and finding logical solutions</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q4" value="D">
+                <label class="form-check-label text-wrap">By using cunning and resourcefulness</label>
+            </div>
+        </div>
+        <div class="my-5 text-wrap">
+            <p class="lead font-weight-normal text-wrap">
+                1. What is your preferred element?
+            </p>
+            <div class="form-check my-2">
+                <input type="radio" name="q5" value="A" checked>
+                <label class="form-check-label">Earth</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q5" value="B">
+                <label class="form-check-label">Fire</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q5" value="C">
+                <label class="form-check-label">Air</label>
+            </div>
+            <div class="form-check my-2">
+                <input type="radio" name="q5" value="D">
+                <label class="form-check-label">Water</label>
+            </div>
+        </div>
+        <div class="text-center">
+            <input type="submit" class="btn btn-secondary">
+        </div>
+    </form>
+    <p class="note py-3 fst-italic fw-light text-center">Remember, this is just a fun test, and the true sorting happens at Hogwarts with the Sorting Hat!</p>
+
+    </div>
+    <footer class="footer bg-dark text-light d-flex justify-content-between align-items-center p-3">
+        <div class="footer-logo">
+            <img class="footer-img" src="./img/G-sbg.png" alt="logo-gl">
+            <p class="m-0">Copyright &#169; Laura Gonzalez</p>
+        </div>
+        <div class="net">
+            <a title="github" href="https://github.com/Lauragonz"><i class="fab fa-github" style="color: #fff;"></i></a>
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
 </body>
 </html>
